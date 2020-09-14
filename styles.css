@@ -1,0 +1,246 @@
+/* Coolors Exported Palette - https://coolors.co/14281d-355834-f2efe9-188fa7-d17b0f
+headings: font-family: 'Oswald', sans-serif;
+content: font-family: 'Roboto', sans-serif;
+font-family: 'Mrs Saint Delafield', cursive;*/
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align:center;
+}
+.container-fluid{
+  padding:5% 10%;
+}
+/* ---------------HEADINGS------------------ */
+h1{
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  font-size: 10rem;
+
+  /*position:absolute;
+  left:80px;
+  top:150px;*/
+}
+h2, h3 {
+  font-family: 'Mrs Saint Delafield', cursive;
+}
+.big-heading{
+  padding:7rem 0 15rem 0;
+}
+.section-heading{
+  font-size: 4rem;
+  font-weight:300;
+  padding-bottom: 2rem;
+}
+.carousel-heading{
+  font-size: 3rem;
+}
+/* Navigation Bar */
+/* ---------------Title Section------------------ */
+#title{
+  background-image: url("images/islands.jpg");
+  background-size: cover;
+  color: #FFF;
+}
+.navbar{
+  padding:1rem 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+/* See More Button */
+.see-more-btn{
+  color: white;
+  text-decoration: none;
+}
+
+/* --------------------Explore Section----------------------- */
+#explore{
+  background-color: #f2efe9;
+  line-height: 2;
+}
+
+.escape-p{
+  background: #FFF;
+  margin-bottom: 3rem;
+}
+/* .paragraph{
+  width: 70%;
+} */
+
+.escape-box{
+
+  height: 400px;
+  border: 10px solid #f2efe9;
+}
+.accomodation{
+  background-image: url(images/accomodation.jpg);
+  background-size: cover;
+
+  position: relative;
+}
+
+.food{
+  background-image: url(images/food.jpg);
+  background-size: cover;
+}
+.see-and-do{
+  background-image: url(images/see&do.jpg);
+  background-size: cover;
+}
+.card{
+  position: absolute;
+  top:-3%;
+  background: rgb(255,255,255,.8);
+  margin: 5%;
+
+}
+.card-heading{
+  font-size: 3rem;
+}
+.accomodation-card{
+/* visibility: hidden; */
+opacity: 0;
+-webkit-transition: all 400ms ease-out;
+ -moz-transition: all 400ms ease-out;
+ -o-transition: all 400ms ease-out;
+ -ms-transition: all 400ms ease-out;
+ transition: all 400ms ease-out;
+}
+.accomodation:hover .accomodation-card{
+/* visibility: visible; */
+opacity: 1;
+}
+.accomodation:hover .text-over-image{
+/* visibility: visible; */
+opacity: 0;
+}
+.food-card{
+/* visibility: hidden; */
+opacity: 0;
+-webkit-transition: all 400ms ease-out;
+ -moz-transition: all 400ms ease-out;
+ -o-transition: all 400ms ease-out;
+ -ms-transition: all 400ms ease-out;
+ transition: all 400ms ease-out;
+}
+.food:hover .food-card{
+/* visibility: visible; */
+opacity: 1;
+}
+.food:hover .text-over-image{
+/* visibility: visible; */
+opacity: 0;
+}
+.see-and-do-card{
+/* visibility: hidden; */
+opacity: 0;
+-webkit-transition: all 400ms ease-out;
+ -moz-transition: all 400ms ease-out;
+ -o-transition: all 400ms ease-out;
+ -ms-transition: all 400ms ease-out;
+ transition: all 400ms ease-out;
+}
+.see-and-do:hover .see-and-do-card{
+opacity: 1;
+}
+.see-and-do:hover .text-over-image{
+opacity: 0;
+}
+.text-over-image{
+  color: #FFF;
+  font-family: 'Mrs Saint Delafield', cursive;
+  /* font-size: 4rem; */
+  font-weight: 200;
+}
+.text-responsive {
+  font-size: calc(100% + 2vw + 4vh);
+}
+
+/* ----------------------------Glimpse of Hawaii ---------------------*/
+#glimpse-of-hawaii{
+  background: url("images/glimpse.jpg");
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+
+#things-to-do{
+  background-color:rgb(242, 239, 233, 0.6);
+  color: black;
+}
+.carousel-item{
+  padding:2%;
+}
+.carousel-images{
+  margin: 3rem;
+  max-height: 100%;
+  width: 70%;
+}
+@media (min-width:800px) {
+  .carousel-images{
+    margin: 3rem;
+    max-height: 100%;
+    width:auto;
+  }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 70px;
+    width: 20px;
+    background-color: black;
+    background-size: 100%, 100%;
+    border-radius: 30%;
+}
+
+
+/* --------------CTA -------------- */
+
+#CTA{
+  background-color: #f2efe9;
+  line-height: 2;
+}
+.cta-p{
+    background: #FFF;
+    margin-bottom: 3rem;
+    padding:3%;
+}
+
+.cta-btn{
+  margin: 20px;
+  width:200px;
+}
+.cta-btn:hover {
+  background: #188fa7;
+  border: none;
+}
+
+/*---------------- CONTACT ------------*/
+.bottom-container{
+background-color: #006D77;
+margin:0;
+padding-top: 40px;
+height:250px;
+color:white;
+line-height: 2;
+}
+.contact-heading{
+  font-size: 3rem;
+}
+
+.footer-link{
+  color: #83C5BE;
+  margin:0 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.footer-p{
+  padding-top: 30px;
+  font-size: .7em;
+}
